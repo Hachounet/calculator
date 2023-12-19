@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#body {
+
+    background-color: #283747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bigcontainer {
+
+    display: flex;
+    width: 500px;
+    
+}
+
+#calculator {
+    height: 600px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#workingzone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid;
+    border-color: #117864;
+    border-radius: 25px;
+    background-color: #979A9A;
+    gap: 8px;
+    
+}
+
+#displaybuttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.buttons {
+    width: 20%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #797D7F;
+    border-radius: 3px;
+}
+
+#TOTAL {
+    width: 90%;
+}
+
+#displayzone {
+    display: flex;
+    border: 1px solid;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 12px;
+    
+    
+}
+
+#displayscreen {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D0D3D4;
+    font-size: 32px;
+    color: #117864;
+    border-radius: 12px;
+   
+}
