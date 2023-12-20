@@ -55,10 +55,16 @@
     align-items: center;
     background-color: #797D7F;
     border-radius: 3px;
+    font-weight: 550;
+    font-size: large;
 }
 
-#TOTAL {
-    width: 90%;
+.btnop {
+    background-color:rosybrown;
+}
+
+.functionality {
+    background-color:royalblue;
 }
 
 #displayzone {
