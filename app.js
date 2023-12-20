@@ -72,12 +72,9 @@ function checkLength() {
     }
 }
 
-document.addEventListener('keypress', (event) => {
+document.addEventListener('keypress', (event) => 
+{
 let name = event.key;
-let code = event.code;
-console.log(`Key press ${name} \r\n Key code value : ${code}`);
-
-
 
 if (       name !== "0" 
         && name !== "1" 
@@ -110,10 +107,8 @@ else {
 );
 
 
-
-
-buttons.forEach(button => button.addEventListener('click', () => {
-
+buttons.forEach(button => button.addEventListener('click', () => 
+{
 
     let buttonContent = button.innerText;
     // If clear button clicked reset all var
