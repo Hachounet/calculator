@@ -21,16 +21,19 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
+    let result = a / b;
     if (b === 0) {
-        return result = "Aborted. No div by 0";
+        return result = 0;
     } else {
-        let result = a / b;
         return result;
     }
 }
 
 function remainder(a, b) {
     let result = (a % b);
+    if (b === 0) {
+        return result = 0;
+    }
     return result;
 }
 
