@@ -58,7 +58,7 @@ function operate() {
         result = remainder(Number(aInput), Number(bInput));
        
     } else {
-        return screenDisplay.textContent = "ERROR IN THE MATRIX";
+        return screenDisplay.textContent = "ERROR";
     }
 
     a = result;
